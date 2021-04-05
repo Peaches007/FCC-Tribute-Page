@@ -1,0 +1,68 @@
+body {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.content-wrap {
+    background-color: #eee;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px 15px 20px 15px;
+}
+h1 {
+    font-size: 250%;
+    margin-bottom: 0;
+}
+.subheading {
+    padding: 30px;
+}
+img {
+    max-width: 1020px;
+    width: 98%;
+}
+figure {
+    background-color: #fff;
+    margin: 0;
+    /* max-width: 1050px; */
+    /* padding: 20px 125px 30px; */
+}
+figcaption {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+section {
+    max-width: 630px;
+    width: 100%;
+    margin: 0 auto;
+}
+li {
+    margin: 20px;
+}
+a {
+    color: #477CA7;
+}
+.quote {
+    padding-top: 30px;
+}
+.text-align {
+    text-align: left;
+}
+.citation {
+    margin-top: 15px;
+    padding-left: 38px;
+}
+.further-reading {
+    margin-top: 50px;
+}
+
+
+/********** Responsive Styles **********/
+@media screen and (max-width: 1316px) {
+    
+    figure {
+        padding: 20px auto 30px;
+    }
+}
